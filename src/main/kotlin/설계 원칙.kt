@@ -1,5 +1,14 @@
 /**
- * OCP,Open Closed Principle : 개방-폐쇄 원칙
+ * 설계 원칙 SOLID
+ * 1. S, 단일 책임 원칙 (Single Responsibility Principle)
+ * 2. O, 개방 폐쇄 원칙 (Open Closed Principle)
+ * 3. L, 리스코프 치환 원칙 (Liskov Substitution Principle)
+ * 4. I, 인터페이스 분리 원칙 (Interface Segregation Principle)
+ * 5. D, 의존 역전 원칙 (Dependency Inversion Principle)
+ * */
+
+/**
+ *  OCP,Open Closed Principle : 개방-폐쇄 원칙
  *  확장에는 열려 있어야하고, 변경에는 닫혀 있어야한다.
  *  기능이 변하거나 확장되는 것은 가능하지만 그 과정에서 기존의 코드가 수정되지 않아야한다.
  *  예시) 라이브러리를 사용하는 객체의 코드가 변경된다고 해서 라이브러리의 코드가 변경된다고
@@ -9,7 +18,7 @@
 
 // 각 객체가 생성될 때부터 각 차량 클래스에 과하게 의존하고 있다.
 // 만약 c의 운전자의 차량이 바뀌면, 운전자 c의 객체를 다시 생성해야한다.
-// 코드 자체가 수정되는 상황은 OCP를 위배한다. `
+// 코드 자체가 수정되는 상황은 OCP를 위배한다.
 fun main() {
     val a = Sonata()
     a.drive()
@@ -18,7 +27,7 @@ fun main() {
     val c = SUV()
     c.drive()
 
-    val d= Carnival("")
+    val d = Carnival("")
 
 }
 
@@ -62,3 +71,19 @@ class Grandeur(_name: String) : Car() {
     }
 }
 
+/**
+ * LSP, Liskov Substitution Principle : 리스코프 치환 원칙
+ * 자식 클래스는 언제나 부모 클래스를 대체할 수 있다는 원칙. 즉 부모 클래스가 들어갈 자리에 자식 클래스를 넣어도 계획대로 잘 작동해야 한다.
+ * 자식클래스는 부모 클래스의 책임을 무시하거나 재정의하지 않고 확장만 수행하도록 해야한다.
+ * */
+
+/**
+ * ISP, Interface Segregation Principle : 인터페이스 분리 원칙
+ * 한 클래스는 자신이 사용하지않는 인터페이스는 구현하지 말아야 한다. 하나의 일반적인 인터페이스보다 여러개의 구체적인 인터페이스가 낫다.
+ * */
+
+/**
+ * DIP, Dependency Inversion Principle : 의존 역전 원칙
+ * 의존 관계를 맺을 때 변화하기 쉬운 것 또는 자주 변화하는 것보다는 변화하기 어려운 것, 거의 변화가 없는 것에 의존하라는 것이다.
+ * 한마디로 구체적인 클래스보다 인터페이스나 추상 클래스와 관계를 맺으라는 것
+ * */

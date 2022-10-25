@@ -2,7 +2,7 @@
  * 추상화 : 핵심적인 기능을 간추려내는 것
  * 공통점을 뽑아낸다.
  * */
-public abstract class Animal {
+abstract class Animal {
     abstract val name: String   // 모두가 가지고있는 이름
     abstract val kind: String    // 당도
 

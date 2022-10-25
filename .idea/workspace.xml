@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed30287-3699-4dab-b879-c1b0b3477590" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/객체지향 프로그래밍의 특징.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/객체지향 프로그래밍의 특징.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/설계 원칙.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/설계 원칙.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +42,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.119617224" />
     <property name="project.structure.side.proportion" value="0.5609418" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="객체지향_프로그래밍의_특징Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
@@ -82,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666670951413</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1666671198407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666671198408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
