@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed30287-3699-4dab-b879-c1b0b3477590" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/객체지향 프로그래밍의 특징.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/객체지향 프로그래밍의 특징.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/설계 원칙.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/설계 원칙.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +38,9 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="69d24664-3ed2-4b67-a3e1-27dfcc7f9311" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Gbw1NKGmJtXVkKJ0hwxFrLXUKF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +62,14 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.절차지향_프로그래밍Kt">
+    <configuration name="절차지향_프로그래밍Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="절차지향_프로그래밍Kt" />
+      <module name="CS-Study.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="객체지향_프로그래밍의_특징Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="객체지향_프로그래밍의_특징Kt" />
       <module name="CS-Study.main" />
@@ -63,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.절차지향_프로그래밍Kt" />
         <item itemvalue="Kotlin.객체지향_프로그래밍의_특징Kt" />
       </list>
     </recent_temporary>
