@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed30287-3699-4dab-b879-c1b0b3477590" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/리스코프 치환 원칙.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/의존 역전 법칙.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/인터페이스 분리 원칙.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/설계 원칙.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/설계 원칙.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.119617224" />
     <property name="project.structure.side.proportion" value="0.5609418" />
@@ -62,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.절차지향_프로그래밍Kt">
+  <component name="RunManager" selected="Kotlin.의존_역전_법칙Kt">
     <configuration name="절차지향_프로그래밍Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="절차지향_프로그래밍Kt" />
       <module name="CS-Study.main" />
@@ -77,8 +80,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="리스코프_치환_원칙Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="리스코프_치환_원칙Kt" />
+      <module name="CS-Study.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="의존_역전_법칙Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="의존_역전_법칙Kt" />
+      <module name="CS-Study.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.의존_역전_법칙Kt" />
+        <item itemvalue="Kotlin.리스코프_치환_원칙Kt" />
         <item itemvalue="Kotlin.절차지향_프로그래밍Kt" />
         <item itemvalue="Kotlin.객체지향_프로그래밍의_특징Kt" />
       </list>
@@ -127,6 +146,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
